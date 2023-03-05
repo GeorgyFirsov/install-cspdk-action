@@ -1,0 +1,4 @@
+#
+# Exclude RTF from GitHub statistic
+#
+*.rtf linguist-vendored
