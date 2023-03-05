@@ -7,6 +7,5 @@ runs:
     - name: "Copy CSPDK files into original installation directory"
       shell: cmd
       run: |
-        echo %GITHUB_ACTION_PATH%
         cd %GITHUB_ACTION_PATH%
         xcopy cspdk "C:\Program Files\Windows Kits\10\Cryptographic Provider Development Kit" /I /E
